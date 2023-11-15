@@ -1,0 +1,333 @@
+
+.navbar {
+    background-color: brown;
+    
+
+}
+.blog{
+    color: rgb(153, 152, 152);
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBQoX0kZETByCkrKqKbDWu2mxs759nUg9sOQ&usqp=CAU);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.ride {
+    color: white;
+    text-align: center;
+}
+.MT-07{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 10px;
+    border-radius: 15px;
+    
+}
+
+
+.pro{
+    color: white;
+    text-align: center;
+    background-color: brown;
+}
+.XADV{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 10px;
+    border-radius: 15px;
+    
+}
+
+.aaa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aa:hover{
+    transform: scale(1.1);
+}
+.cas{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: brown;
+    border-color: black;
+    border-radius:5px ;
+    font-weight: bold;
+    
+}
+.Lorem{
+    background-color: white;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+footer{
+    color: white;
+    background-color: brown;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col{
+    min-width: 250px;
+    color: white;
+    font-family: poppins;
+    padding: 0 2rem;
+}
+.col.logo{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.col h3{
+    color: rgb(63, 4, 24);
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.col h3 ::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color:rgb(63, 4, 24) ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+.col h3 :hover::after{
+    width: 30px;
+}
+.col .social a i {
+    color: rgb(63, 4, 24);
+    margin-top: 2rem;
+    margin-right: 5px;
+    transition: 0.3s ease;
+}
+.col .social a i :hover{
+    transform: scale(1.5);
+    filter: grayscale(25);
+}
+.col .links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.col .links a ::before{
+    content: '';
+    height: 16px;   
+    width: 3px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    background-color:  rgb(63, 4, 24);
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.col .links a  :hover::before{
+    opacity: 1;
+}
+.col .links a  :hover{
+    transform: translateX(-8px);
+    color:rgb(63, 4, 24) ;
+}
+.col .contact-detail{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.col .contact-detail i{
+    margin-right: 15px;
+}
+.row .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.row .form input{
+    background-color: black;
+    border: 0;
+    outline: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form button{
+    padding: 14px 20px;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color:rgb(63, 4, 24) ;
+}
+*/
+footer{
+    color: white;
+    background-color: brown;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.col{
+    min-width: 250px;
+    color: white;
+    font-family: poppins;
+    padding: 0 2rem;
+}
+.col.logo{
+    width: 100px;
+    margin-bottom: 25px;
+    border-radius :50%;
+}
+.col h3{
+    color: rgb(63, 4, 24);
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.col h3 ::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color:rgb(63, 4, 24) ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+.col h3 :hover::after{
+    width: 30px;
+}
+.col .social a i {
+    color: rgb(63, 4, 24);
+    margin-top: 2rem;
+    margin-right: 5px;
+    transition: 0.3s ease;
+}
+.col .social a i :hover{
+    transform: scale(1.5);
+    filter: grayscale(25);
+}
+.col .links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.col .links a ::before{
+    content: '';
+    height: 16px;   
+    width: 3px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    background-color:  rgb(63, 4, 24);
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.col .links a  :hover::before{
+    opacity: 1;
+}
+.col .links a  :hover{
+    transform: translateX(-8px);
+    color:rgb(63, 4, 24) ;
+}
+.col .contact-detail{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.col .contact-detail i{
+    margin-right: 15px;
+}
+.row .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.row .form input{
+    color: white;
+    background-color: black;
+    border: 0;
+    outline: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form button{
+    padding: 14px 20px;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color:rgb(63, 4, 24) ;
+}
+
+
+
+
+
